@@ -1,0 +1,27 @@
+body {
+  margin-top: 100px;
+  text-align: center;
+  background: url('https://img.clipartfest.com/75f4c82fd38dc820f79c1edf2bf89255_arch20clipart-arch-clipart_2555-3845.png') no-repeat center center fixed;
+  background-size: 70%;
+  font-family: 'Merriweather', serif;
+}
+
+div {
+  line-height: 0.5;
+}
+
+div:first-letter {
+  float: center;
+  font-size: 250%;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
+
+hr {
+  width: 25%;
+}
+
+span.glow {
+  text-shadow: 0 0 3px yellow;
+}

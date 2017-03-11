@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#expand {
+  letter-spacing: 5px;
+}
+
+.flower-top, .flower-bottom {
+  font-size: 200%;
+  margin-bottom: -20px;
+}
+
+.text {
+  font-size: 75%;
+  border: 3px solid white;
+  margin: 2px;
+  letter-spacing: 1px;
+  line-height: 85%;
+  -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  transition:.75s;
+}
+
+.text:hover {
+  border: 3px solid black;
+  box-shadow: 0 0 5px #FFFF00;
+}
+
+.top, .bottom {
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.top-mid, .bottom-mid {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.mid {
+  margin-left: 43%;
+  margin-right: 43%;
+  letter-spacing: 0px;
+}

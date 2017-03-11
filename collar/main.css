@@ -1,0 +1,73 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  padding: 20px;
+}
+
+i {
+  color: black;
+}
+
+.fa:hover {
+  color: red;
+}
+
+p {
+  font-size: 110%;
+}
+
+div.circle {
+  display: table-cell;
+  height: 550px;
+  width: 550px;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid black;
+  border-radius: 60%;
+  background: #fff;
+  color: #000;
+}
+
+div.one {
+  border: 5px dashed black;
+}
+
+div.two {
+  border: 4px dotted black;
+}
+
+div.three {
+  border: 3px dotted #282828;
+}
+
+div.four {
+  border: 2px dotted #606060;
+}
+
+div.five {
+  border: 1px dotted #B8B8B8;
+}
+
+div.six {
+  border: 10px double black;
+}
+
+span.name {
+  font-size: 180%;
+  line-height: 1;
+  text-shadow: 0 0 3px yellow;
+}

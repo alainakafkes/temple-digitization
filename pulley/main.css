@@ -1,0 +1,33 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+.block {
+  font-size: 75%;
+  text-align: left;
+}
+
+.one {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  padding-right: 20px;
+}
+
+.two {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+}
+
+.two {
+  font-size: 75%;
+  position: absolute;
+  top: 180px;
+  left: 950px;
+}

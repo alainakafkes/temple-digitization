@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  margin: 60px 50px 50px 50px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+}
+
+div {
+  height: 600px;
+  width: 350px;
+  border: 2px solid white;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+div.left-wing {
+  flex: 1 0 500px;
+  background-image: url('http://easter-wings.herokuapp.com/1.png');
+  transform: perspective(900px) rotateY(45deg);
+}
+
+div.right-wing {
+  flex: 1 0 500px;
+  background-image: url('http://easter-wings.herokuapp.com/2.png');
+  transform: perspective(900px) rotateY(-45deg);
+}
+
+.left-wobble {
+  animation: left-wobble 4s infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes left-wobble {
+  0%, 100% {
+    transform: rotate(-5deg) perspective(900px) rotateY(45deg);
+  }
+
+  50% {
+    transform: rotate(5deg) perspective(900px) rotateY(45deg);
+  }
+}
+
+.right-wobble {
+  animation: right-wobble 4s infinite;
+  transform-origin: 50% 50%
+}
+
+@keyframes right-wobble {
+  0%, 100% {
+    transform: rotate(5deg) perspective(900px) rotateY(-45deg);
+  }
+
+  50% {
+    transform: rotate(-5deg) perspective(900px) rotateY(-45deg);
+  }
+}
+}
